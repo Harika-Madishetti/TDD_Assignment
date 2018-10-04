@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae559237-8a9e-4fb2-9918-e9e14822bf3d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PrimeNumber/Primenumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PrimeNumber/Primenumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PrimeNumber/Primenumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PrimeNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrimeNumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FibonacciSeries/FibonacciSeries.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FibonacciSeries/FibonacciSeries.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,10 +76,17 @@
       <file leaf-file-name="PrimeNumberTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PrimeNumberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="315">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/PrimeNumber/Primenumber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -137,8 +142,8 @@
         <option value="$PROJECT_DIR$/src/main/java/FibonacciSeries/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/test/java/FibonacciSeriesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FibonacciSeries/FibonacciSeries.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PrimeNumber/Primenumber.java" />
         <option value="$PROJECT_DIR$/src/test/java/PrimeNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PrimeNumber/Primenumber.java" />
       </list>
     </option>
   </component>
@@ -239,6 +244,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
@@ -272,23 +280,6 @@
       <option name="MAIN_CLASS_NAME" value="PrimeNumberTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PrimeNumberTest.checkWeatherFiveIsPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDD_Assignment" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PrimeNumberTest" />
-      <option name="METHOD_NAME" value="checkWeatherFiveIsPrime" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -332,13 +323,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PrimeNumberTest.checkWeatherTwoIsPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeNumberTest.checkWeatherThreeIsPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_Assignment" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PrimeNumberTest" />
-      <option name="METHOD_NAME" value="checkWeatherTwoIsPrime" />
+      <option name="METHOD_NAME" value="checkWeatherThreeIsPrime" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PrimeNumberTest.checkWeatheroneIsPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD_Assignment" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PrimeNumberTest" />
+      <option name="METHOD_NAME" value="checkWeatheroneIsPrime" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -388,19 +396,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PrimeNumberTest.checkWeatherGivenNumberIsPrime" />
+      <item itemvalue="JUnit.PrimeNumberTest.checkWeatheroneIsPrime" />
       <item itemvalue="JUnit.PrimeNumberTest" />
       <item itemvalue="JUnit.PrimeNumberTest.checkWeatherFourIsPrime" />
-      <item itemvalue="JUnit.PrimeNumberTest.checkWeatherFiveIsPrime" />
-      <item itemvalue="JUnit.PrimeNumberTest.checkWeatherTwoIsPrime" />
+      <item itemvalue="JUnit.PrimeNumberTest.checkWeatherThreeIsPrime" />
+      <item itemvalue="JUnit.PrimeNumberTest.checkWeatherGivenNumberIsPrime" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PrimeNumberTest" />
-        <item itemvalue="JUnit.PrimeNumberTest.checkWeatherFourIsPrime" />
-        <item itemvalue="JUnit.PrimeNumberTest.checkWeatherTwoIsPrime" />
-        <item itemvalue="JUnit.PrimeNumberTest.checkWeatherFiveIsPrime" />
         <item itemvalue="JUnit.PrimeNumberTest.checkWeatherGivenNumberIsPrime" />
+        <item itemvalue="JUnit.PrimeNumberTest.checkWeatheroneIsPrime" />
+        <item itemvalue="JUnit.PrimeNumberTest.checkWeatherThreeIsPrime" />
+        <item itemvalue="JUnit.PrimeNumberTest.checkWeatherFourIsPrime" />
       </list>
     </recent_temporary>
   </component>
@@ -414,44 +422,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538660348217</updated>
-      <workItem from="1538660350904" duration="10054000" />
+      <workItem from="1538660350904" duration="12411000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrimeNumberTest - 2018.10.04 at 22h 06m 08s.xml">
-      <configuration name="PrimeNumberTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberTest - 2018.10.04 at 22h 07m 12s.xml">
-      <configuration name="PrimeNumberTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberTest_checkWeatherFourIsPrime - 2018.10.04 at 22h 08m 35s.xml">
-      <configuration name="PrimeNumberTest.checkWeatherFourIsPrime" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberTest_checkWeatherFourIsPrime - 2018.10.04 at 22h 09m 15s.xml">
-      <configuration name="PrimeNumberTest.checkWeatherFourIsPrime" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberTest_checkWeatherFiveIsPrime - 2018.10.04 at 22h 09m 44s.xml">
-      <configuration name="PrimeNumberTest.checkWeatherFiveIsPrime" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberTest_checkWeatherFiveIsPrime - 2018.10.04 at 22h 10m 01s.xml">
-      <configuration name="PrimeNumberTest.checkWeatherFiveIsPrime" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberTest_checkWeatherTwoIsPrime - 2018.10.04 at 22h 10m 36s.xml">
+    <history-entry file="PrimeNumberTest_checkWeatherTwoIsPrime - 2018.10.04 at 22h 43m 11s.xml">
       <configuration name="PrimeNumberTest.checkWeatherTwoIsPrime" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimeNumberTest_checkWeatherTwoIsPrime - 2018.10.04 at 22h 12m 16s.xml">
-      <configuration name="PrimeNumberTest.checkWeatherTwoIsPrime" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberTest_checkWeatherFourIsPrime - 2018.10.04 at 22h 12m 19s.xml">
+    <history-entry file="PrimeNumberTest_checkWeatherFourIsPrime - 2018.10.04 at 22h 44m 10s.xml">
       <configuration name="PrimeNumberTest.checkWeatherFourIsPrime" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimeNumberTest - 2018.10.04 at 22h 12m 29s.xml">
+    <history-entry file="PrimeNumberTest - 2018.10.04 at 22h 44m 13s.xml">
       <configuration name="PrimeNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberTest - 2018.10.04 at 22h 44m 32s.xml">
+      <configuration name="PrimeNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberTest - 2018.10.04 at 22h 45m 01s.xml">
+      <configuration name="PrimeNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberTest_checkWeatheroneIsPrime - 2018.10.04 at 22h 45m 37s.xml">
+      <configuration name="PrimeNumberTest.checkWeatheroneIsPrime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberTest_checkWeatheroneIsPrime - 2018.10.04 at 22h 45m 47s.xml">
+      <configuration name="PrimeNumberTest.checkWeatheroneIsPrime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberTest_checkWeatheroneIsPrime - 2018.10.04 at 22h 46m 09s.xml">
+      <configuration name="PrimeNumberTest.checkWeatheroneIsPrime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberTest_checkWeatherThreeIsPrime - 2018.10.04 at 22h 46m 53s.xml">
+      <configuration name="PrimeNumberTest.checkWeatherThreeIsPrime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberTest_checkWeatheroneIsPrime - 2018.10.04 at 22h 47m 44s.xml">
+      <configuration name="PrimeNumberTest.checkWeatheroneIsPrime" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10054000" />
+    <option name="totallyTimeSpent" value="12411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="23" width="1394" height="877" extended-state="6" />
@@ -606,19 +614,102 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/PrimeNumber/Primenumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PrimeNumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="315">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TDD_Assignment</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

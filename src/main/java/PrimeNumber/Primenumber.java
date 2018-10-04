@@ -2,10 +2,11 @@ package PrimeNumber;
 
 public class Primenumber {
 
-    public boolean check(int i) {
-        if(i % 2 != 0) {
-            return true;
+    public boolean check(int number) {
+        for(int j = 2 ; j < number; j++){
+           if(number % j == 0 )
+            return false;
         }
-        return false;
+        return true;
     }
 }
