@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae559237-8a9e-4fb2-9918-e9e14822bf3d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/FibonacciSeries/FibonacciSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FibonacciSeries/FibonacciSeries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FibonacciSeriesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FibonacciSeriesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PrimeNumber/Primenumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PrimeNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrimeNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FibonacciSeries/FibonacciSeries.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FibonacciSeries/FibonacciSeries.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FibonacciSeriesTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FibonacciSeriesTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FibonacciSeriesTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -69,6 +71,27 @@
                 <element signature="e#641#642#0" expanded="true" />
                 <element signature="e#689#690#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrimeNumberTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PrimeNumberTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Primenumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PrimeNumber/Primenumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -114,6 +137,8 @@
         <option value="$PROJECT_DIR$/src/main/java/FibonacciSeries/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/test/java/FibonacciSeriesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FibonacciSeries/FibonacciSeries.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PrimeNumber/Primenumber.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PrimeNumberTest.java" />
       </list>
     </option>
   </component>
@@ -184,6 +209,14 @@
               <item name="TDD_Assignment" type="b2602c69:ProjectViewProjectNode" />
               <item name="TDD_Assignment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PrimeNumber" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TDD_Assignment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TDD_Assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -210,6 +243,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="PrimeNumber" />
       <recent name="FibonacciSeries" />
       <recent name="FizzBuzz" />
     </key>
@@ -226,16 +260,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FibonacciSeriesTest">
+  <component name="RunManager" selected="JUnit.PrimeNumberTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="FibonacciSeriesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_Assignment" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FibonacciSeriesTest" />
+      <option name="MAIN_CLASS_NAME" value="PrimeNumberTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -247,13 +281,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FibonacciSeriesTest.number_in_index_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeNumberTest.checkWeatherFiveIsPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_Assignment" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FibonacciSeriesTest" />
-      <option name="METHOD_NAME" value="number_in_index_2" />
+      <option name="MAIN_CLASS_NAME" value="PrimeNumberTest" />
+      <option name="METHOD_NAME" value="checkWeatherFiveIsPrime" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -264,13 +298,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FibonacciSeriesTest.number_in_index_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeNumberTest.checkWeatherFourIsPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_Assignment" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FibonacciSeriesTest" />
-      <option name="METHOD_NAME" value="number_in_index_3" />
+      <option name="MAIN_CLASS_NAME" value="PrimeNumberTest" />
+      <option name="METHOD_NAME" value="checkWeatherFourIsPrime" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -281,13 +315,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FibonacciSeriesTest.number_in_index_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeNumberTest.checkWeatherGivenNumberIsPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_Assignment" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FibonacciSeriesTest" />
-      <option name="METHOD_NAME" value="number_in_index_4" />
+      <option name="MAIN_CLASS_NAME" value="PrimeNumberTest" />
+      <option name="METHOD_NAME" value="checkWeatherGivenNumberIsPrime" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -298,13 +332,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FibonacciSeriesTest.number_in_index_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeNumberTest.checkWeatherTwoIsPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_Assignment" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FibonacciSeriesTest" />
-      <option name="METHOD_NAME" value="number_in_index_5" />
+      <option name="MAIN_CLASS_NAME" value="PrimeNumberTest" />
+      <option name="METHOD_NAME" value="checkWeatherTwoIsPrime" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -354,19 +388,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.FibonacciSeriesTest" />
-      <item itemvalue="JUnit.FibonacciSeriesTest.number_in_index_2" />
-      <item itemvalue="JUnit.FibonacciSeriesTest.number_in_index_3" />
-      <item itemvalue="JUnit.FibonacciSeriesTest.number_in_index_4" />
-      <item itemvalue="JUnit.FibonacciSeriesTest.number_in_index_5" />
+      <item itemvalue="JUnit.PrimeNumberTest.checkWeatherGivenNumberIsPrime" />
+      <item itemvalue="JUnit.PrimeNumberTest" />
+      <item itemvalue="JUnit.PrimeNumberTest.checkWeatherFourIsPrime" />
+      <item itemvalue="JUnit.PrimeNumberTest.checkWeatherFiveIsPrime" />
+      <item itemvalue="JUnit.PrimeNumberTest.checkWeatherTwoIsPrime" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FibonacciSeriesTest" />
-        <item itemvalue="JUnit.FibonacciSeriesTest.number_in_index_5" />
-        <item itemvalue="JUnit.FibonacciSeriesTest.number_in_index_4" />
-        <item itemvalue="JUnit.FibonacciSeriesTest.number_in_index_3" />
-        <item itemvalue="JUnit.FibonacciSeriesTest.number_in_index_2" />
+        <item itemvalue="JUnit.PrimeNumberTest" />
+        <item itemvalue="JUnit.PrimeNumberTest.checkWeatherFourIsPrime" />
+        <item itemvalue="JUnit.PrimeNumberTest.checkWeatherTwoIsPrime" />
+        <item itemvalue="JUnit.PrimeNumberTest.checkWeatherFiveIsPrime" />
+        <item itemvalue="JUnit.PrimeNumberTest.checkWeatherGivenNumberIsPrime" />
       </list>
     </recent_temporary>
   </component>
@@ -380,47 +414,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538660348217</updated>
-      <workItem from="1538660350904" duration="8378000" />
+      <workItem from="1538660350904" duration="10054000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FibonacciSeriesTest - 2018.10.04 at 21h 19m 05s.xml">
-      <configuration name="FibonacciSeriesTest" configurationId="JUnit" />
+    <history-entry file="PrimeNumberTest - 2018.10.04 at 22h 06m 08s.xml">
+      <configuration name="PrimeNumberTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciSeriesTest_number_in_index_5 - 2018.10.04 at 21h 20m 17s.xml">
-      <configuration name="FibonacciSeriesTest.number_in_index_5" configurationId="JUnit" />
+    <history-entry file="PrimeNumberTest - 2018.10.04 at 22h 07m 12s.xml">
+      <configuration name="PrimeNumberTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciSeriesTest_number_in_index_5 - 2018.10.04 at 21h 20m 32s.xml">
-      <configuration name="FibonacciSeriesTest.number_in_index_5" configurationId="JUnit" />
+    <history-entry file="PrimeNumberTest_checkWeatherFourIsPrime - 2018.10.04 at 22h 08m 35s.xml">
+      <configuration name="PrimeNumberTest.checkWeatherFourIsPrime" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciSeriesTest_number_in_index_5 - 2018.10.04 at 21h 21m 10s.xml">
-      <configuration name="FibonacciSeriesTest.number_in_index_5" configurationId="JUnit" />
+    <history-entry file="PrimeNumberTest_checkWeatherFourIsPrime - 2018.10.04 at 22h 09m 15s.xml">
+      <configuration name="PrimeNumberTest.checkWeatherFourIsPrime" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciSeriesTest_number_in_index_5 - 2018.10.04 at 21h 22m 34s.xml">
-      <configuration name="FibonacciSeriesTest.number_in_index_5" configurationId="JUnit" />
+    <history-entry file="PrimeNumberTest_checkWeatherFiveIsPrime - 2018.10.04 at 22h 09m 44s.xml">
+      <configuration name="PrimeNumberTest.checkWeatherFiveIsPrime" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciSeriesTest_number_in_index_5 - 2018.10.04 at 21h 22m 38s.xml">
-      <configuration name="FibonacciSeriesTest.number_in_index_5" configurationId="JUnit" />
+    <history-entry file="PrimeNumberTest_checkWeatherFiveIsPrime - 2018.10.04 at 22h 10m 01s.xml">
+      <configuration name="PrimeNumberTest.checkWeatherFiveIsPrime" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciSeriesTest_number_in_index_5 - 2018.10.04 at 21h 23m 34s.xml">
-      <configuration name="FibonacciSeriesTest.number_in_index_5" configurationId="JUnit" />
+    <history-entry file="PrimeNumberTest_checkWeatherTwoIsPrime - 2018.10.04 at 22h 10m 36s.xml">
+      <configuration name="PrimeNumberTest.checkWeatherTwoIsPrime" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciSeriesTest_number_in_index_5 - 2018.10.04 at 21h 24m 28s.xml">
-      <configuration name="FibonacciSeriesTest.number_in_index_5" configurationId="JUnit" />
+    <history-entry file="PrimeNumberTest_checkWeatherTwoIsPrime - 2018.10.04 at 22h 12m 16s.xml">
+      <configuration name="PrimeNumberTest.checkWeatherTwoIsPrime" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciSeriesTest - 2018.10.04 at 21h 28m 35s.xml">
-      <configuration name="FibonacciSeriesTest" configurationId="JUnit" />
+    <history-entry file="PrimeNumberTest_checkWeatherFourIsPrime - 2018.10.04 at 22h 12m 19s.xml">
+      <configuration name="PrimeNumberTest.checkWeatherFourIsPrime" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciSeriesTest - 2018.10.04 at 21h 33m 12s.xml">
-      <configuration name="FibonacciSeriesTest" configurationId="JUnit" />
+    <history-entry file="PrimeNumberTest - 2018.10.04 at 22h 12m 29s.xml">
+      <configuration name="PrimeNumberTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8378000" />
+    <option name="totallyTimeSpent" value="10054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="23" width="1394" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -431,12 +466,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32948717" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32948717" />
       <window_info anchor="bottom" id="Version Control" weight="0.32948717" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32948717" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32948717" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -541,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FibonacciSeries/FibonacciSeries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FibonacciSeriesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -564,6 +592,30 @@
             <element signature="e#594#595#0" expanded="true" />
             <element signature="e#641#642#0" expanded="true" />
             <element signature="e#689#690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FibonacciSeries/FibonacciSeries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PrimeNumber/Primenumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PrimeNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
