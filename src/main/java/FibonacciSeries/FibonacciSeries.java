@@ -1,10 +1,13 @@
 package FibonacciSeries;
 
 public class FibonacciSeries {
-    public int get(int i) {
-        if(i < 2) {
-            return 1;
+    private static final int TWO = 2;
+    private static final int ONE = 1;
+
+    public int get(int index) {
+        if(index < TWO) {
+            return ONE;
         }
-        return get(i - 1) + get(i - 2);
+        return get(index - ONE) + get(index - TWO);
     }
 }
