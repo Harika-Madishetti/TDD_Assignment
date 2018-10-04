@@ -13,7 +13,7 @@ public class FizzBuzzTest {
         assertEquals("2",fizzbuzz.print(2));
     }
     @Test
-    public void print_fizz_if_the_number_3(){
+    public void print_fizz_if_the_number_is_3(){
         assertEquals("FIZZ",fizzbuzz.print(3));
     }
     @Test
@@ -30,6 +30,6 @@ public class FizzBuzzTest {
     }
     @Test
     public void print_fizzbuzz_if_the_number_is_divisible_by_3and5(){
-        assertEquals("FIZZBUZZ",fizzbuzz.print(30));
+        assertEquals("FIZZBUZZ",fizzbuzz.print(45));
     }
 }
