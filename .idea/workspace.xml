@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae559237-8a9e-4fb2-9918-e9e14822bf3d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FizzBuzz/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FizzBuzz/FizzBuzz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" afterDir="false" />
     </list>
@@ -29,10 +28,22 @@
       <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="368">
+              <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#844#845#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,8 +52,8 @@
       <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="150">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -169,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest.print_fizz_if_the_number_is_divisible_by_3">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest.print_buzz_if_the_number_is_divisible_by_5">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -190,13 +201,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FizzBuzzTest.print_fizz_if_the_number_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.print_buzz_if_the_number_is_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_Assignment" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="print_fizz_if_the_number_3" />
+      <option name="METHOD_NAME" value="print_buzz_if_the_number_is_5" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -207,13 +218,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FizzBuzzTest.print_fizz_if_the_number_is_divisible_by_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.print_buzz_if_the_number_is_divisible_by_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_Assignment" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="print_fizz_if_the_number_is_divisible_by_3" />
+      <option name="METHOD_NAME" value="print_buzz_if_the_number_is_divisible_by_5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FizzBuzzTest.print_fizz_if_the_number_is_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD_Assignment" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
+      <option name="METHOD_NAME" value="print_fizz_if_the_number_is_5" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -281,16 +309,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.FizzBuzzTest" />
+      <item itemvalue="JUnit.FizzBuzzTest.print_fizz_if_the_number_is_5" />
+      <item itemvalue="JUnit.FizzBuzzTest.print_buzz_if_the_number_is_5" />
+      <item itemvalue="JUnit.FizzBuzzTest.print_buzz_if_the_number_is_divisible_by_5" />
       <item itemvalue="JUnit.FizzBuzzTest.print_same_number_as_given" />
-      <item itemvalue="JUnit.FizzBuzzTest.print_fizz_if_the_number_3" />
-      <item itemvalue="JUnit.FizzBuzzTest.print_fizz_if_the_number_is_divisible_by_3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FizzBuzzTest.print_fizz_if_the_number_is_divisible_by_3" />
+        <item itemvalue="JUnit.FizzBuzzTest.print_buzz_if_the_number_is_divisible_by_5" />
         <item itemvalue="JUnit.FizzBuzzTest" />
-        <item itemvalue="JUnit.FizzBuzzTest.print_fizz_if_the_number_3" />
         <item itemvalue="JUnit.FizzBuzzTest.print_same_number_as_given" />
+        <item itemvalue="JUnit.FizzBuzzTest.print_buzz_if_the_number_is_5" />
+        <item itemvalue="JUnit.FizzBuzzTest.print_fizz_if_the_number_is_5" />
       </list>
     </recent_temporary>
   </component>
@@ -304,41 +334,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538660348217</updated>
-      <workItem from="1538660350904" duration="2505000" />
+      <workItem from="1538660350904" duration="3923000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest - 2018.10.04 at 19h 29m 39s.xml">
+    <history-entry file="FizzBuzzTest - 2018.10.04 at 20h 11m 25s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2018.10.04 at 19h 29m 55s.xml">
+    <history-entry file="FizzBuzzTest - 2018.10.04 at 20h 11m 50s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_print_same_number_as_given - 2018.10.04 at 19h 34m 09s.xml">
+    <history-entry file="FizzBuzzTest_print_buzz_if_the_number_is_divisible_by_5 - 2018.10.04 at 20h 12m 10s.xml">
+      <configuration name="FizzBuzzTest.print_buzz_if_the_number_is_divisible_by_5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_print_buzz_if_the_number_is_divisible_by_5 - 2018.10.04 at 20h 12m 28s.xml">
+      <configuration name="FizzBuzzTest.print_buzz_if_the_number_is_divisible_by_5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest - 2018.10.04 at 20h 12m 31s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_print_same_number_as_given - 2018.10.04 at 20h 12m 34s.xml">
       <configuration name="FizzBuzzTest.print_same_number_as_given" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_print_same_number_as_given - 2018.10.04 at 19h 35m 00s.xml">
-      <configuration name="FizzBuzzTest.print_same_number_as_given" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_print_same_number_as_given - 2018.10.04 at 19h 35m 11s.xml">
-      <configuration name="FizzBuzzTest.print_same_number_as_given" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_print_fizz_if_the_number_3 - 2018.10.04 at 19h 50m 52s.xml">
-      <configuration name="FizzBuzzTest.print_fizz_if_the_number_3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest - 2018.10.04 at 19h 50m 55s.xml">
+    <history-entry file="FizzBuzzTest - 2018.10.04 at 20h 12m 36s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2018.10.04 at 19h 51m 21s.xml">
+    <history-entry file="FizzBuzzTest - 2018.10.04 at 20h 13m 23s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2018.10.04 at 19h 51m 41s.xml">
-      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_print_buzz_if_the_number_is_divisible_by_5 - 2018.10.04 at 20h 13m 39s.xml">
+      <configuration name="FizzBuzzTest.print_buzz_if_the_number_is_divisible_by_5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_print_buzz_if_the_number_is_divisible_by_5 - 2018.10.04 at 20h 14m 01s.xml">
+      <configuration name="FizzBuzzTest.print_buzz_if_the_number_is_divisible_by_5" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2505000" />
+    <option name="totallyTimeSpent" value="3923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="23" width="1394" height="877" extended-state="0" />
@@ -427,17 +460,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="150">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="368">
+          <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
           </folding>
         </state>
       </provider>
