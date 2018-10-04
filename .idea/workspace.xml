@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae559237-8a9e-4fb2-9918-e9e14822bf3d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/FizzBuzz/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FizzBuzz/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FibonacciSeriesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FibonacciSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FibonacciSeries/FibonacciSeries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FizzBuzzTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FizzBuzzTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,17 +21,17 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="135">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+            <state relative-caret-position="225">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#227#228#0" expanded="true" />
@@ -47,6 +49,27 @@
                 <element signature="e#934#935#0" expanded="true" />
                 <element signature="e#989#990#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FibonacciSeriesTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FibonacciSeriesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FibonacciSeries.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FibonacciSeries/FibonacciSeries.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -79,6 +102,10 @@
         <option value="$PROJECT_DIR$/src/test/java/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/main/java/FizzBuzz/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FibonacciSeries.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FibonacciSeries/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FibonacciSeriesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FibonacciSeries/FibonacciSeries.java" />
       </list>
     </option>
   </component>
@@ -91,7 +118,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="46" />
     <option name="y" value="23" />
     <option name="width" value="1394" />
@@ -135,7 +162,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="FizzBuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="FibonacciSeries" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TDD_Assignment" type="b2602c69:ProjectViewProjectNode" />
@@ -167,6 +194,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="FibonacciSeries" />
       <recent name="FizzBuzz" />
     </key>
   </component>
@@ -182,16 +210,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest">
+  <component name="RunManager" selected="JUnit.FibonacciSeriesTest.number_in_index_5">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciSeriesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_Assignment" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
+      <option name="MAIN_CLASS_NAME" value="FibonacciSeriesTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -203,13 +231,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FizzBuzzTest.print_buzz_if_the_number_is_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciSeriesTest.number_in_index_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_Assignment" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="print_buzz_if_the_number_is_5" />
+      <option name="MAIN_CLASS_NAME" value="FibonacciSeriesTest" />
+      <option name="METHOD_NAME" value="number_in_index_2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -220,13 +248,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FizzBuzzTest.print_buzz_if_the_number_is_divisible_by_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciSeriesTest.number_in_index_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_Assignment" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="print_buzz_if_the_number_is_divisible_by_5" />
+      <option name="MAIN_CLASS_NAME" value="FibonacciSeriesTest" />
+      <option name="METHOD_NAME" value="number_in_index_3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -237,13 +265,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FizzBuzzTest.print_fizzbuzz_if_the_number_is_divisible_by_3and5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciSeriesTest.number_in_index_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_Assignment" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="print_fizzbuzz_if_the_number_is_divisible_by_3and5" />
+      <option name="MAIN_CLASS_NAME" value="FibonacciSeriesTest" />
+      <option name="METHOD_NAME" value="number_in_index_4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -254,13 +282,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FizzBuzzTest.print_same_number_as_given" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciSeriesTest.number_in_index_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_Assignment" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="print_same_number_as_given" />
+      <option name="MAIN_CLASS_NAME" value="FibonacciSeriesTest" />
+      <option name="METHOD_NAME" value="number_in_index_5" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -310,19 +338,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.FizzBuzzTest" />
-      <item itemvalue="JUnit.FizzBuzzTest.print_buzz_if_the_number_is_5" />
-      <item itemvalue="JUnit.FizzBuzzTest.print_buzz_if_the_number_is_divisible_by_5" />
-      <item itemvalue="JUnit.FizzBuzzTest.print_same_number_as_given" />
-      <item itemvalue="JUnit.FizzBuzzTest.print_fizzbuzz_if_the_number_is_divisible_by_3and5" />
+      <item itemvalue="JUnit.FibonacciSeriesTest" />
+      <item itemvalue="JUnit.FibonacciSeriesTest.number_in_index_2" />
+      <item itemvalue="JUnit.FibonacciSeriesTest.number_in_index_3" />
+      <item itemvalue="JUnit.FibonacciSeriesTest.number_in_index_4" />
+      <item itemvalue="JUnit.FibonacciSeriesTest.number_in_index_5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FizzBuzzTest" />
-        <item itemvalue="JUnit.FizzBuzzTest.print_fizzbuzz_if_the_number_is_divisible_by_3and5" />
-        <item itemvalue="JUnit.FizzBuzzTest.print_buzz_if_the_number_is_divisible_by_5" />
-        <item itemvalue="JUnit.FizzBuzzTest.print_same_number_as_given" />
-        <item itemvalue="JUnit.FizzBuzzTest.print_buzz_if_the_number_is_5" />
+        <item itemvalue="JUnit.FibonacciSeriesTest.number_in_index_5" />
+        <item itemvalue="JUnit.FibonacciSeriesTest" />
+        <item itemvalue="JUnit.FibonacciSeriesTest.number_in_index_4" />
+        <item itemvalue="JUnit.FibonacciSeriesTest.number_in_index_3" />
+        <item itemvalue="JUnit.FibonacciSeriesTest.number_in_index_2" />
       </list>
     </recent_temporary>
   </component>
@@ -336,47 +364,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538660348217</updated>
-      <workItem from="1538660350904" duration="5621000" />
+      <workItem from="1538660350904" duration="7511000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest - 2018.10.04 at 20h 12m 36s.xml">
-      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    <history-entry file="FibonacciSeriesTest_number_in_index_3 - 2018.10.04 at 21h 07m 56s.xml">
+      <configuration name="FibonacciSeriesTest.number_in_index_3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2018.10.04 at 20h 13m 23s.xml">
-      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    <history-entry file="FibonacciSeriesTest - 2018.10.04 at 21h 07m 59s.xml">
+      <configuration name="FibonacciSeriesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_print_buzz_if_the_number_is_divisible_by_5 - 2018.10.04 at 20h 13m 39s.xml">
-      <configuration name="FizzBuzzTest.print_buzz_if_the_number_is_divisible_by_5" configurationId="JUnit" />
+    <history-entry file="FibonacciSeriesTest_number_in_index_4 - 2018.10.04 at 21h 08m 38s.xml">
+      <configuration name="FibonacciSeriesTest.number_in_index_4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_print_buzz_if_the_number_is_divisible_by_5 - 2018.10.04 at 20h 14m 01s.xml">
-      <configuration name="FizzBuzzTest.print_buzz_if_the_number_is_divisible_by_5" configurationId="JUnit" />
+    <history-entry file="FibonacciSeriesTest_number_in_index_4 - 2018.10.04 at 21h 19m 03s.xml">
+      <configuration name="FibonacciSeriesTest.number_in_index_4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_print_fizzbuzz_if_the_number_is_divisible_by_3and5 - 2018.10.04 at 20h 21m 19s.xml">
-      <configuration name="FizzBuzzTest.print_fizzbuzz_if_the_number_is_divisible_by_3and5" configurationId="JUnit" />
+    <history-entry file="FibonacciSeriesTest - 2018.10.04 at 21h 19m 05s.xml">
+      <configuration name="FibonacciSeriesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_print_fizzbuzz_if_the_number_is_divisible_by_3and5 - 2018.10.04 at 20h 25m 41s.xml">
-      <configuration name="FizzBuzzTest.print_fizzbuzz_if_the_number_is_divisible_by_3and5" configurationId="JUnit" />
+    <history-entry file="FibonacciSeriesTest_number_in_index_5 - 2018.10.04 at 21h 20m 17s.xml">
+      <configuration name="FibonacciSeriesTest.number_in_index_5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_print_fizzbuzz_if_the_number_is_divisible_by_3and5 - 2018.10.04 at 20h 47m 49s.xml">
-      <configuration name="FizzBuzzTest.print_fizzbuzz_if_the_number_is_divisible_by_3and5" configurationId="JUnit" />
+    <history-entry file="FibonacciSeriesTest_number_in_index_5 - 2018.10.04 at 21h 20m 32s.xml">
+      <configuration name="FibonacciSeriesTest.number_in_index_5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_print_fizzbuzz_if_the_number_is_divisible_by_3and5 - 2018.10.04 at 20h 48m 09s.xml">
-      <configuration name="FizzBuzzTest.print_fizzbuzz_if_the_number_is_divisible_by_3and5" configurationId="JUnit" />
+    <history-entry file="FibonacciSeriesTest_number_in_index_5 - 2018.10.04 at 21h 21m 10s.xml">
+      <configuration name="FibonacciSeriesTest.number_in_index_5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2018.10.04 at 20h 48m 13s.xml">
-      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    <history-entry file="FibonacciSeriesTest_number_in_index_5 - 2018.10.04 at 21h 22m 34s.xml">
+      <configuration name="FibonacciSeriesTest.number_in_index_5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2018.10.04 at 20h 51m 48s.xml">
-      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    <history-entry file="FibonacciSeriesTest_number_in_index_5 - 2018.10.04 at 21h 22m 38s.xml">
+      <configuration name="FibonacciSeriesTest.number_in_index_5" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5621000" />
+    <option name="totallyTimeSpent" value="7511000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="23" width="1394" height="877" extended-state="0" />
+    <frame x="45" y="23" width="1394" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -388,12 +416,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32948717" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32948717" />
       <window_info anchor="bottom" id="Version Control" weight="0.32948717" />
       <window_info anchor="bottom" id="Terminal" weight="0.32948717" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -453,10 +481,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FibonacciSeries/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -469,8 +497,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+        <state relative-caret-position="225">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#227#228#0" expanded="true" />
@@ -487,6 +515,30 @@
             <element signature="e#844#845#0" expanded="true" />
             <element signature="e#934#935#0" expanded="true" />
             <element signature="e#989#990#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FibonacciSeries/FibonacciSeries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FibonacciSeriesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
