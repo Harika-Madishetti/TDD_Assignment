@@ -28,4 +28,8 @@ public class FizzBuzzTest {
     public void print_buzz_if_the_number_is_divisible_by_5(){
         assertEquals("BUZZ",fizzbuzz.print(20));
     }
+    @Test
+    public void print_fizzbuzz_if_the_number_is_divisible_by_3and5(){
+        assertEquals("FIZZBUZZ",fizzbuzz.print(30));
+    }
 }
