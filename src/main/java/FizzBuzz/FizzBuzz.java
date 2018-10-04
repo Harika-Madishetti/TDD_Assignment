@@ -2,7 +2,10 @@ package FizzBuzz;
 
 public class FizzBuzz {
 
-    public int print(int i) {
-        return i;
+    public String print(int number) {
+        if(number % 3 ==0){
+            return "FIZZ";
+        }
+        return "" + number;
     }
 }
