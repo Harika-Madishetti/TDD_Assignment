@@ -1,4 +1,4 @@
-package PrimeNumber;
+package Assignment2;
 
 public class Primenumber {
 

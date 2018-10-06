@@ -1,4 +1,6 @@
-import PrimeNumber.Primenumber;
+package Assignment2;
+
+import Assignment2.Primenumber;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertFalse;

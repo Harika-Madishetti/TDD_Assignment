@@ -1,4 +1,4 @@
-package FibonacciSeries;
+package Assignment2;
 
 public class FibonacciSeries {
     private static final int TWO = 2;

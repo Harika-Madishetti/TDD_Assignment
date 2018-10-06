@@ -1,4 +1,4 @@
-package FizzBuzz;
+package Assignment2;
 
 public class FizzBuzz {
     private static final int THREE = 3;

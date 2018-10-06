@@ -1,4 +1,6 @@
-import FizzBuzz.FizzBuzz;
+package Assignment2;
+
+import Assignment2.FizzBuzz;
 import org.junit.Test;
 import static junit.framework.TestCase.assertEquals;
 
