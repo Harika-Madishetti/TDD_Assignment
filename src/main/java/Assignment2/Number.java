@@ -5,8 +5,11 @@ public class Number {
     private static final int REMAINDER = 0;
 
     public boolean check(int givennumber) {
-        for(int divisor = DIVISOR ; divisor < givennumber; divisor++ ){
-           if(givennumber % divisor == REMAINDER )
+        int divisor = DIVISOR;
+        final boolean isDivisible = givennumber % divisor == REMAINDER;
+
+        for( divisor = DIVISOR ; divisor < givennumber; divisor++ ){
+            if(isDivisible)
             return false;
         }
         return true;

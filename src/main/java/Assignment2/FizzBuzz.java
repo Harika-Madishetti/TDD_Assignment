@@ -7,7 +7,7 @@ public class FizzBuzz {
     private static final String BLANK = "";
 
     public String print(int number) {
-        final boolean isNumberDivisibleByFifteen = number % THREE == 0 && number % 5 ==0;
+        final boolean isNumberDivisibleByFifteen = number % THREE == 0 && number % 5 == 0;
         final boolean isNumberDivisibleByThree = number % THREE == 0 ;
         final boolean isNumberDivisibleByFive = number % FIVE == 0 ;
         if(isNumberDivisibleByFifteen) {
