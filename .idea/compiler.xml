@@ -9,7 +9,7 @@
         <module name="TDD_Assignment" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="TDD_Assignment" target="1.5" />
     </bytecodeTargetLevel>
   </component>

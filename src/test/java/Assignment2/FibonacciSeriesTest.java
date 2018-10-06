@@ -1,6 +1,6 @@
 package Assignment2;
 
-import Assignment2.FibonacciSeries;
+
 import org.junit.Test;
 import static junit.framework.TestCase.assertEquals;
 
