@@ -1,8 +1,8 @@
 package Assignment2;
 
 public class FibonacciSeries {
-    private static final int  COUNT= 2;
-    private static final int FIRST_NUMBER_IN_SERIES = 1;
+    private static int  COUNT= 2;
+    private static int FIRST_NUMBER_IN_SERIES = 1;
 
     public int get(int index) {
         if(index < COUNT) {
