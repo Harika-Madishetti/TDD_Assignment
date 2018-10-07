@@ -2,7 +2,7 @@ package Assignment2;
 
 public class Number {
 
-    public static boolean isprime(int input) {
+    public boolean isprime(int input) {
         if(input <= 1) {
             return false;
         }
