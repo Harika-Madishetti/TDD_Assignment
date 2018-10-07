@@ -2,24 +2,38 @@ package Assignment2;
 
 import org.junit.Test;
 import static junit.framework.TestCase.assertFalse;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class PrimeNumberTest {
-    private Number Number = new Number();
+
     @Test
-    public void checkWeatherThreeIsPrime(){
-        assertTrue(Number.check(3));
+    public void shouldReturnFalseForOne(){
+        assertFalse(Number.isprime(1));
     }
     @Test
-    public void checkWeatherFourIsPrime(){
-        assertFalse(Number.check(4));
+    public void shouldReturnTrueForTwo(){
+        assertTrue(Number.isprime(2));
     }
     @Test
-    public void checkWeatherGivenNumberIsPrime(){
-        assertTrue(Number.check(5));
+    public void shouldReturnFalseForFour(){
+        assertFalse(Number.isprime(4));
     }
     @Test
-    public void checkWeatherTwoIsPrime(){
-        assertTrue(Number.check(2));
+    public void shouldReturnTrueForFive(){
+        assertTrue(Number.isprime(5));
     }
+    @Test
+    public void shouldReturnFalseForInput(){
+        assertFalse(Number.isprime(9));
+    }
+    @Test
+    public void shouldReturnTrueForInput(){
+        assertTrue(Number.isprime(11));
+    }
+    @Test
+    public void shouldReturnFalseForNegativeInput(){
+        assertFalse(Number.isprime(-12));
+    }
+
 }
