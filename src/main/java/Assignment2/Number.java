@@ -1,8 +1,11 @@
 package Assignment2;
 
 public class Number {
-
-    public boolean isprime(int input) {
+    int input;
+    public Number(int input){
+        this.input = input;
+    }
+    public boolean isprime() {
         if(input <= 1) {
             return false;
         }
