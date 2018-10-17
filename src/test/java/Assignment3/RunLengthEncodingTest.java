@@ -12,4 +12,12 @@ public class RunLengthEncodingTest {
     public void encode_aaa(){
         assertEquals("a3", new RunLength("aaa").encode());
     }
+    @Test
+    public void encode_empty(){
+        assertEquals("", new RunLength("").encode());
+    }
+    @Test
+    public void encode_givendata(){
+        assertEquals("a3s3e3d3", new RunLength("aaasssEEEddd").encode());
+    }
 }
