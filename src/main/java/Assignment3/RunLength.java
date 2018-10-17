@@ -11,6 +11,6 @@ public class RunLength {
         if (data == "a") {
             return "a1";
         }
-        return null ;
+        return null;
     }
 }
