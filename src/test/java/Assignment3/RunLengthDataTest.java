@@ -24,4 +24,8 @@ public class RunLengthDataTest {
     public void decode_a1(){
         assertEquals("a", new RunLengthData("a1").decode());
     }
+    @Test
+    public void decode_a3b4(){
+        assertEquals("aaabbbb", new RunLengthData("a3b4").decode());
+    }
 }

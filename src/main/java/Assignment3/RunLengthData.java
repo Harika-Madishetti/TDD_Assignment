@@ -22,6 +22,13 @@ public class RunLengthData {
     }
 
     public String decode() {
-        return "a";
+        String decodedData = "";
+        for(int index = 0 ; index < data.length() ; index = index + 2){
+            int count = data.charAt(index + 1) - '0';
+            for(int iterator = 0 ; iterator < count ; iterator++){
+                decodedData = decodedData + data.charAt(index);
+            }
+        }
+        return decodedData;
     }
 }
