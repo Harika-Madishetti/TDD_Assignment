@@ -1,9 +1,9 @@
 package Assignment3;
 
-public class RunLength {
+public class RunLengthData {
 
     String data;
-    public RunLength(String data) {
+    public RunLengthData(String data) {
         this.data = data ;
     }
 
