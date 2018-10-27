@@ -1,4 +1,4 @@
-package Assignment3;
+package Assignment3_2;
 
 enum Singleton {
     INSTANCE;
