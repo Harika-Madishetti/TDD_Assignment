@@ -3,13 +3,13 @@ package Assignment3_2;
 enum Singleton {
     INSTANCE;
 
-    private String statement;
+    private String input;
 
-    public void setStatement(String statement) {
-        this.statement = statement;
+    public void setInput(String input) {
+        this.input = input;
     }
 
-    public String getStatement() {
-        return this.statement;
+    public String getInput() {
+        return this.input;
     }
 }
