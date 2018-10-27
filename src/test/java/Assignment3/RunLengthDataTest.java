@@ -20,4 +20,8 @@ public class RunLengthDataTest {
     public void encode_givendata(){
         assertEquals("a3s3e3d3", new RunLengthData("aaasssEEEddd").encode());
     }
+    @Test
+    public void decode_a1(){
+        assertEquals("a", new RunLengthData("a1").decode());
+    }
 }

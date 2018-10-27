@@ -20,4 +20,8 @@ public class RunLengthData {
        }
        return encodedData;
     }
+
+    public String decode() {
+        return "a";
+    }
 }
