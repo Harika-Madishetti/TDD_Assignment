@@ -1,6 +1,8 @@
 package Assignment3_1;
 
 import org.junit.Test;
+
+import java.sql.Connection;
 import java.sql.SQLException;
 import static org.junit.Assert.assertTrue;
 
@@ -22,5 +24,11 @@ public class BasicConnectionPoolTest {
                     assertTrue(connectionPool.getConnection().isValid(1));
                 }
             }catch (Exception e){}
+    }
+    @Test
+    public void TestToReturnConnectionFromUsedConnection() throws SQLException {
+        ConnectionPool connectionPool = DBConnection.create("jdbc:postgresql://localhost:5432/","postgres","postgres");
+        Connection conn = connectionPool.getConnection();
+        assertTrue(connectionPool.returnConnection(conn));
     }
 }

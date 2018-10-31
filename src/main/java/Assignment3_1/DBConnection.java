@@ -57,4 +57,10 @@ public class DBConnection implements ConnectionPool {
         usedConnections.add(connection);
             return connection;
     }
+
+    @Override
+    public boolean returnConnection(Connection connection) {
+        pool.add(connection);
+        return usedConnections.remove(connection);
+    }
 }
