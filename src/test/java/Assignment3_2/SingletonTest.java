@@ -1,20 +1,15 @@
 package Assignment3_2;
 
 import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class SingletonTest {
     @Test
-    public void shouldReturnSingleton(){
-        Singleton object = Singleton.INSTANCE;
-        object.setInput("Sigleton");
-        assertEquals("Sigleton" , object.getInput());
-    }
-    @Test
-    public void shouldReturnImplement(){
-        Singleton object = Singleton.INSTANCE;
+    public void TestForCheckingSameReferenceForTwoObjects(){
+        Singleton object1 = Singleton.INSTANCE;
         Singleton object2 = Singleton.INSTANCE;
-        object2.setInput("Implement");
-        assertEquals("Implement", object.getInput());
+        object1.hashCode();
+        object2.hashCode();
+        assertTrue(object2.equals(object1));
     }
 }
