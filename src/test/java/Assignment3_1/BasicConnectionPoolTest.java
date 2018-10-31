@@ -22,6 +22,5 @@ public class BasicConnectionPoolTest {
                     assertTrue(connectionPool.getConnection().isValid(1));
                 }
             }catch (Exception e){}
-
     }
 }

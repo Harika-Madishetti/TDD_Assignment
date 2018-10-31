@@ -46,9 +46,9 @@ public class DBConnection implements ConnectionPool {
                     pool.add(createConnection(url, user, password));
                 }else {
                     try {
-                        throw new RuntimeException();
-                    }catch (RuntimeException e){
-                        System.out.println("Pool Size Reached");
+                        throw new PoolSizeReachedException();
+                    }catch (PoolSizeReachedException e){
+                        System.out.println(e);
                     }
             }
         }
