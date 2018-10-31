@@ -1,7 +1,8 @@
 package Assignment3_1;
 
 import java.sql.Connection;
+import java.sql.SQLException;
 
 public interface ConnectionPool {
-    Connection getConnection();
+    Connection getConnection() throws SQLException;
 }

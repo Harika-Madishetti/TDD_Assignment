@@ -22,10 +22,9 @@ public class DBConnection implements ConnectionPool {
         this.pool = pool;
     }
 
-
     public static DBConnection create(String url, String user, String password) throws SQLException {
           List<Connection> pool = new ArrayList<Connection>(POOL_SIZE);
-          for(int i = 0; i < POOL_SIZE; i++){
+          for(int iterator = 0; iterator < POOL_SIZE; iterator++){
               pool.add(createConnection(url,user,password));
           }
           return new DBConnection(url,user,password,pool);
@@ -41,7 +40,19 @@ public class DBConnection implements ConnectionPool {
     }
 
     @Override
-    public Connection getConnection() {
+    public Connection getConnection() throws SQLException {
+        if(pool.isEmpty()){
+                if (usedConnections.size() < POOL_SIZE) {
+                    pool.add(createConnection(url, user, password));
+                }else {
+                    try {
+                        throw new RuntimeException();
+                    }catch (RuntimeException e){
+                        System.out.println("Pool Size Reached");
+                    }
+            }
+        }
+
        Connection connection = pool.remove(pool.size() - 1);
         usedConnections.add(connection);
             return connection;

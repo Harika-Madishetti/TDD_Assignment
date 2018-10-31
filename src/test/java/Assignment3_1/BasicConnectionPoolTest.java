@@ -14,4 +14,14 @@ public class BasicConnectionPoolTest {
         ConnectionPool connectionPool = DBConnection.create("jdbc:postgresql://localhost:5432/","postgres","postgres");
         assertTrue(connectionPool.getConnection().isValid(1));
     }
+    @Test
+    public void TestToLimitPoolByFiveConnections() throws SQLException {
+            ConnectionPool connectionPool = DBConnection.create("jdbc:postgresql://localhost:5432/", "postgres", "postgres");
+            try {
+                for (int iterator = 0; iterator < 6; iterator++) {
+                    assertTrue(connectionPool.getConnection().isValid(1));
+                }
+            }catch (Exception e){}
+
+    }
 }
