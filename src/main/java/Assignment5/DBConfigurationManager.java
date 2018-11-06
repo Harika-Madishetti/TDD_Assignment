@@ -1,9 +1,9 @@
 package Assignment5;
 
 public class DBConfigurationManager {
-    String url;
-    String user;
-    String password;
+    private String url;
+    private String user;
+    private String password;
 
     public DBConfigurationManager(String url, String user, String password) {
         this.url = url;
