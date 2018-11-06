@@ -12,16 +12,16 @@ public class Consumer implements Runnable {
 
     @Override
     public void run() {
-        try {
-            Connection connection = sharedResource.consume();
-            Thread.sleep(5000);
+        while (true) {
             try {
+                Connection connection = sharedResource.consume();
                 connection.close();
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-        } catch (InterruptedException e) {
-            e.printStackTrace();
         }
     }
 }

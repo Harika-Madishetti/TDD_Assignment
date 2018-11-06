@@ -13,11 +13,13 @@ public class Producer implements Runnable {
 
     @Override
     public void run() {
-        try {
-            Connection connection = DBConnectionManager.getConnection();
-            sharedResource.produce(connection);
-        } catch (SQLException e) {
-            e.printStackTrace();
+        while (true) {
+            try {
+                Connection connection = DBConnectionManager.getConnection();
+                sharedResource.produce(connection);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
