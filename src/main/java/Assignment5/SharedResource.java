@@ -5,8 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SharedResource {
-    List<Connection> connections = new ArrayList<Connection>();
+    private List<Connection> connections = new ArrayList<Connection>();
     private int MAX_SIZE = 25;
+    private ConsumerThread consumerThread = new ConsumerThread();
 
     public synchronized void produce(Connection connection) {
         while (connections.size() < MAX_SIZE) {
@@ -25,10 +26,17 @@ public class SharedResource {
         while (connections.isEmpty()) {
             wait();
         }
-        System.out.println("Thread " + Thread.currentThread().getId() + ": consuming connection ");
-        Connection producedConnection = connections.remove(0);
+        Connection producedConnection;
+        if (consumerThread.isSelfish(Thread.currentThread().getId())) {
+            System.out.println("Thread " + Thread.currentThread().getId() + ": consuming connection ");
+            producedConnection = connections.remove(0);
+            System.out.println("Thread" + Thread.currentThread().getId() + "  is sleeping");
+            Thread.sleep(2000);
+        } else {
+            System.out.println("Thread " + Thread.currentThread().getId() + ": consuming connection ");
+            producedConnection = connections.remove(0);
+        }
         notifyAll();
         return producedConnection;
     }
-
 }
